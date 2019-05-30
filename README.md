@@ -8,12 +8,19 @@ not support async/await. Several options for downloading/installing
 Python on MacOS:
 
 * Official Python web site:
-  https://www.python.org/downloads/
+  <https://www.python.org/downloads/>
   
 * Install Python with `brew`:
   ```
   brew install python
   ```
+
+
+### Install dependencies
+We only need `aiohttp` for these examples:
+```
+pip3 install --user aiohttp
+```
 
 ### Run the examples/exercises
 
